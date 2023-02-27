@@ -1,0 +1,54 @@
+
+ARDUINO. 
+  GDN: es soo un punto de referencia, 
+  los pines digitales se pueden configurar como salidas y entradas, los pines solo tienen un estado.
+  
+  bueno en si las partes de un arduino. bueno en un arduino hay salidas de 3.5 voltios. 
+
+  algunos pines tienen mas de un uso, estos estan marcando een la placa tr tx 
+
+  en si es de donde se conecta de la computadora, son el mismo que la entrada usb, si estuvieramos usando el usb y no pondriamos usara esos dos prines porque son lo mismo 
+
+
+
+  comunicacion serial y comunicacion paralela. 
+
+    COMUNICACION SERIAL: si es bidireccional tengo tres patas que se conectan. tenemos dos elementos que queremos communicar:   
+      cada uno tiene una para de transmision y una pata de recepcion: Tx, Rx
+
+      pero como se dijo que son tres patas: entonces tambien se conectan los dos puntos de GDN
+
+      si no estuviera esta otra pata entonces ambas partes estan conectadas a la tierra  que entonces se vuelve en el punto de referencia.
+
+
+  USB: universal serial bus. Usb usa 4 pines
+    o Vcc (5 voltios)
+    o GND (tierra)
+    o Tx
+    o Rx 
+  
+  lo de bus: significa que todos se transmitiran por el mismo cable entonces comparten el mismo medio entonces si tenemos muchos dispositivos conectados es mas lento.
+
+  bueno la comunicacion paralela ya no factible porque es mas costosa.
+
+
+  com funciona una protoboard: a los lado tienen dos filas que seeon el menos y mas, creo que menos = tierra mas = voltaje, 
+
+  los otros pines estan conectados de la siguiente forma todo lo que pertenece a una misma columna estan conectados.
+
+  Cortocircuitos: si en la protoboard conectamos el mas y el menos tenemos un cortocircuito: resultado xd pero por suerte las pcs tienen protocolos para evitar eso.
+  
+
+  como conectar varios leds en una proto
+
+  ARDUINO: bueno en el codigo del arduino tenemos como dos funciones: 
+  void setup(){
+    aca definimos para cuando se encienda el arduino
+    osea cosas predefinidas 
+  }
+
+void loop(){
+  es como un ciclo infinito.
+}
+
+bueno la pata 2 

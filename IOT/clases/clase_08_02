@@ -1,0 +1,69 @@
+bueno en si el magister hablo mas de circuitoss y hablamos algo de arduino y las cosas que hace y lo que lo haces especial 
+es que tiene muchas cosas unidas 
+
+memoria ROM: 
+memoria flash: es una tecnologia muy especifica para guardar informacion permanentemente osea no volatil 
+
+COMO FUNCIONA UNA MEMORIA FLASH: partimos de los transitores que son hechos de los semiconductores
+  semiconductores: son weas que pueden ser aislantes y conductores. podemos mover los eletrones dentro  de los conductores para que sesa algo y otra casa a la vez
+
+  entonces una FLASH funciona de la misma forma osea mmovemos los electrones dentro de esos semiconductores y asi se guarda en ese estado 
+
+  pero la desventaja de estas memorias es que se desgastan con el tiempo osea aque tienen un numero limitado de uso
+  por eso los dicos de estado solido son caros por que pueden tener rel doble de memoria FLASH 
+
+memoria EPPROM es una tipo de memoria mas antigua 
+
+que es analogico: viene de analogo 
+  analogo -> cuando algo es igual, similar o parecido 
+
+  imaginense un termometro: que crece o se achica ese crecimiento es analogo a la temperatura  osea que ese crecimiento es parecido al crecimiento de la temperatura 
+  
+  entonces es una funcion de la temperatura en funcion del tiempo es analoga a la temperatura 
+
+  lo continuo no es analogo por que por ejeplo la luz de un cuarto se prende y se apaga y eso no es continua 
+
+  COSA: el sonido son ondas, entonces como eso va por una corriente? las ondas sonoras mueven una menbarana de carton que asu vez mueve un iman que genera voltaje que puede ser 
+  traducido en ondas electricas. Los parlantes son lo mismo   entonces podria decirse que las ondas sonoras son analogas al voltaje
+
+
+  ANALOGO:una funcion es analoga si en el eje y o variable dependiente esta puede tomar infinitos valores , entonces cuando una senial puede tomar infinito valores entonces 
+  es una senial analoga. Si es finita entonces esa es una senial digital 
+
+  COMO ALMACENAMOS LA MUSICA?: antes usabamos discos de vinilo que las ondas del voltje estaba impreso en el plastico y leugo este se reemplazo por un cd (que es solo un plastico 
+  con una pintura especial). Que ventajas tenia el cd sobre el vinilo? el cd se podia copiar y el vinilo no. 
+    CASETS: eran cintas magneticas que al copiarse la calidad de los datos se iban perdiendo . Y esto es porque las copias analogas siempre van perdiendo calidad con el tiempo
+
+    como convertimos nuestr senial anaogica a una senial digital podemos dvidir la el grafico en una cuadricula y solo poner las intersecciones esto es una aproximado, 
+    asi que al hacer esto perdemos las calidad de la pieza original  para no perder tanta calidad usamos una cuadrcula muy dividida muy pequenia
+    entonces la calidad de un cd es de 44 khz 16 bits 
+
+    entonces cuanto pesa una cancion estandar: 180 s  * 44000 * 2 bytes * 2 canaless(stereo) = 31MB esto en WAV
+    m3a, agg, y demas
+
+    COSA: ZIP es un algoritmo de comprimir algo pero que se puee volver a su estado original 
+    no es muy conveniente usar WAB entonces se commprime  para tener un peso dd 3 MB  y en este proceso se pierde calidad aun maas 
+    tambien tenemos el lossless
+    
+    AHORA LAS GRABACINES YA NO SON ANALOGICAS todo se hace de forma digital
+
+    ANTES: el telefono de antes era de 8 bits y  8 khz ->64 kbps las frecuencias altas no pasaban por el telefono por ejemplo un platillo no pasaria por el platillo 
+    TELEFONOS MOVILES: cuando hablamos por el telefono hablamos en 2g o en 3g esto se comprime a 11 kbps entonces es pero 
+    WHATSAPP: este depende de la conexion a internet y esta va a 256 kbs klobyes
+
+VIDEO: 
+  entender la teles antiguas. un rayo pintabab lineas en la pantalla de las teles antiguas y dentro de cada linea habia valores de luminosidad que deterimnaba cuan ilumminado esta un cierto pixel y esto se podia poner en una funcion por cada linea de las que se pintaban 
+
+
+  a la hora de llevarlo a digital tenemos los pixels por cada pixel tenemos 3 bits y por ejepmo full hd 1080 p entonces si calculamos el numero de bits de un frame de una pantalla full hd tiene 48  MB y a si esto se le multipiica el numero de frames y la duracion en segundos tenemos el peso de un video y esto puede llegar a ser muy grande  51GB 
+
+  entonces tenemos que comprimirlo y ahi esta el MP4 que tiene licensia 
+  con esto podemos decir si un video a MP4->1080p->4mbits -> 90 mB en 4k -> 20Mbits por segundo 
+
+  el video siempre esta compreso 
+
+  CINE: en estados unidos directamente se descargan directamente y aqui en Bolivia nos envian en discos duros 
+  DVD: anntes el contenido estaba encriptado para que se eviten las copias pero lo que hacien los piratas reproducian la imagen y luego la capturaban para capturar esa imagen 
+  y hacer un nuevo dvd con esa imagen. 
+
+

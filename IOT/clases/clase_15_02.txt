@@ -1,0 +1,88 @@
+bueno objetos ineligentes: que son las cosas en el internet de las cosas
+
+
+los objetos inteligentes son aquello que se pueden comunicar: 
+
+  sensores ctuadores y objetos inteligentes: son los bloques fundamentales en IOT
+
+  para nosotros las redes: son redes de objetos inteligentes
+
+  SENSOR: que hace: convertir algo que podemos sentir en unos y seros
+    por ejemplo: un sensor de temperatura, no solo seria un termometro, tiene que poder transformar lo que siente a alguna senial que se pueda interpretar
+
+  analogia: la vista, y una camara; nuestros sentidos pueden ser representados por sensores: mediante la ciencia se puede sacar informacion de estos sensores. 
+  el gusto y el olfato serian sensore muy complicados.
+
+  tambien hay sensores que como humanos no podemos sentir: campos magneticos, velocidad
+
+  se pueen clasificar de las siguientes maneras: 
+    sensores activos o pasivos: (cuando algo en la electronica es activo se dice cuando si o si se necesita que los alimentes para que funcionen)
+    sensores invasivos u no invasivos: quiere decir que algo es invasivo si es que invade xd (termometro en un bebe)
+    de contacto: si o si necesitan contacto para funcionar
+    absoluto o relativo: relativo: que tenemos que medir otra cosa directamente relacionada con la cosa que queremos, absoluto: que directamente podemos medir lo que queremos
+
+  // potenciometro: las perillas en si son potenciometros
+  // sensores de movimiento, sensores de velocidad y de aceleraccion, fuerza , de flujo, hay sendores de todo, por ejemplo el sensor que mide la cantidad de alcohol
+
+  lo sensores pueden tomar formas diferentes y hasta tenemos mucho ssensores en nuestor celular
+
+  // como funciona una camara: son como llas pantallas osea tiene muchos sensores que son sensibles a la luz
+  // GPS: los militares lo desarrollaron, ellos tienen uno mas preciso, el que usamos es como uno casero
+  // termometro: es para monitorear la temperatura del procesador 
+  // varometro: es para darnos la altura sobre el nivel del mar  
+  // sensor de luz: es para el brillo automatico
+  // sensor de huella: 
+  // microfono: los dispositivos actuales tiene muchos microfonos esto es para eliminar el ruido del ambiente
+  // sensor de moisture: como gotas de rocio osea que son muy pequenias estos es para detectar si estaba en agua, 
+  // giroscopio: para saber que inclinacion tiene el telefono en 3D 
+  // sensor de humedad: para detectar si hay agua. // El litio con el agua es explosivo
+  // acelerometro: tiene un sensor para saber cuanto esta acelerando en los 3 ejes x, y, z
+  // magnotometro: mide campos magneticos , funciona para las brujulas
+  // sensor de proximidad: para saber si el celular esta cerca de la pantalla
+  // NFC: es una tecnologia de comunicacion pero que es para cercitas esa tecnologia que vi antes
+  // // radar: para saber distancias hacia los objetos. Usa ondas electromagneticas
+  // lida (o algo asi): mide la distancia a la que esta algo, funciona con una luz que no podemos ver bueno se usa mas en las camaras 
+
+  // el ultimo que iphone implemento un sensor que mmide fuerzas G eso para ver si alguien estuvo en un accidente
+
+  tambien los smartwahes tambien tienen un culo de sensores: por ejemplo el sensor de la preion arterial ven el movimiento de la piel para medir
+
+ACTUADORES: actuar sobre el mundo fisico
+  tambien se pueden clasificar por dmas cosas
+  
+  ejemplos: 
+    un actuador mecanico: las pueras cuyo seguro se accionan de manera electronica osea que se abren apretando un boton
+    un actuador electricos: un transistor, diodo
+    actuadores electromagneticos: un electroiman 
+    actuadores de materiales inteligentes: por ejemplo que te deja ver y que tambien te deja ver solo apretando un boton, es un material intelgente
+    hay micro y nano actuadores: 
+
+
+UN OBJETO INTELIGENTE: para todas las cosas de arriba le vamo a llamar objeto inteligente
+  tiene que tener una unidad de procesamiento, sensores y actuadores, una forma de comunicarse
+
+
+  unidad de procesamiento: es la que va procesar la informacion
+  sensores o actuadores: 
+  comunicacion del dispositivo
+  fuente de alimentacion: normalmente los objetos inteligentes funcionaran con baterias o hasta con fuentes de alimentacion solar y demas osea qe no siempre va a estar conectados
+    y en muchos de los casos si solo va a funcionar con una bateria esta va a durar anios
+
+  un objeto inteligente es basicamente una computadora de bajo costo. 
+
+
+TENDENCIAS EN LOS OBJETOS INTELIGENTES: es basicamente lo que hacen la computadoreas: mas pequenias, mas eficientes, mejore sus capacidades de comunicarse
+
+REDES DE SENSORES: en si tendria que ser: red de obetos inteligentes, pero bueno cosas.
+  los snsores y actuadores se counican entre si. // leer diapositiva
+
+
+WIRE....
+
+
+HIERARCHIES OF SMART OBJECTS
+  por ejemplo si queremos medir la temperatura, y tenemos un objeto que es mas potente que otro objeto entonces se le da prioridad o demas, // eer diapositiva
+
+
+
+
