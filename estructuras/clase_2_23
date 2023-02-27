@@ -1,0 +1,51 @@
+ANALISIS DE ALGORITMOS 
+  o eficiencia en tiempo (saber que estrutura es mas rapida)
+  o eficiencia de espacio (cuanto espacio almacenamos)
+
+  - ambos son importantes pero siempre hay que darle la prioridad a la eficiendia de tiempo
+
+
+  ** EFICIENCIA DE TIEMPO: contar el numero de pasos que le toma terminar la tarea
+    - existe una funcion T(1,2,3, ... P) es una funcian para sacar el conteo de pasos
+    - en algoritmos no recursivos las partes importantes del codigo que se debe tomar importancia son los ciclos
+    - por ejemplo el siguiente algoritmo: 
+        ----------------------
+          cont = 0;
+          while(cont<n)
+            cont++; 
+            joselito += cont;
+        
+          return; 
+        -------------------------
+
+      bueno en este algortimo cada operacion cuanta como un paso 
+
+      cont = 0 +1
+      cont++ +1
+      joselito += cont; +1
+      return +1
+
+      cada uno aunmenta en el contador de esa funcion T()
+
+      entonces tenemos la siguiente funcion para hallar el numero de los paos que realiza la funcion
+        T(N) = 1 + n(2) + 1
+      donde vemos que la variable se multiplica por 2 porque dentro del ciclo hay dos pasos 
+      bueno esta notacion es muy exacta pero en lineas generales esto se puede simplicar solo identificandola con la notacion BIG O 
+      entonces tenemos: O(N)  que es el algoritmo que tenemos arriba
+      
+      en caso de tener ifs en el codigo entonces elegimos el camino que tenga el pero final osea que tenga mas pasos. 
+      por ejemplo el siguiente codigo: 
+      while(N){
+        while(N){ 
+          if(){
+            while(X) joselito++; 
+          }else {
+            pero ++; 
+            osea++;
+          }
+        }
+      }
+
+      el tiempoo de esta funcion es: T(N,x) <= 1 + NNX
+
+      en este caso estamos considerando el peor caso, el caso donde vamos a entrar en el if con el ciclo

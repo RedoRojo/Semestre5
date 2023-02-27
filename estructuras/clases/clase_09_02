@@ -1,0 +1,19 @@
+en si en la clase la magister hablo de las listas que es una estructura de datos que almacena elementos de forma lineal 
+y bueno en las diapositivas estan los enfoques de la lista y lo que 
+
+  o Algoritmos dentro de una lista: 
+    -Busqueda lineal: bueno vamos de unito en unito hasta el final de la lista preguntando si el elemento que buscamos es aquel en el que estamos. Este es orden lineal O(n)
+    - Busqueda recursiva: en si esta toma el enfoque recursivo que pregunta si la cabeza es el elemento que buscamos y si si entonces retorna la mierda: 
+      / anaisis de tiempo: O(N)
+      / analisis de espacio: Ebuscar (N) = (x*N + x1) + zN
+
+  bueno en si mi idea de las lista esta equivaocada: osea tengo que pensar en una lista como en la vida real osea una fila de personas si alguien quiere se primero entonces se pone
+  al frente y ya si alguien quiere ponerse al final tambien solo va y se pone al final, entonces ambos procesos son constantes O(1)
+
+  1ra forma: hacerlo como un vector clasico osea que tarda N en insertar en el inicio
+  2da forma: la otra forma de hacer esto es poner al primer elemento en el principio lo insertamos alfinal
+    ejemplo: 1 3 4  quiero insetar 0 en el inicio tenemos : 1 3 4 0  
+            si lo pusieramos con espacios libres: 1 3 4 _ _ _ 0 
+            si insertaramos 92  mas en el inicio tendriamos: 1 3 4 _ _ 92 0
+
+    en si esta forma  es algo como la idea de python que va on los indices negativos
