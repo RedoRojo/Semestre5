@@ -1,0 +1,20 @@
+bueno en la clase el magister hablo de que en los modelos mas complejos el modelo no solo depende de una variable y que depende de mucas variables 
+
+puede ser del tiempo y del espacio, por ejemplo la temperatura de una cosa por ejemplo de una cama que esta al lado de una ventana entonces la variacion de la temperatura varia entorno a el tiempo y a al tiempo
+
+entonces tenemos lo que es un vector de derivadas tendriamos algo asi [ dT/dt , dT/dx ] y demas. 
+
+Ahora lo que tenemos que hacer es discretizar la grafica o lo que sea como todo lo que hicimos antes
+esto esta jodido
+
+bueno podemos poner esto como una cuadricula donde en un lado ponemos el tiempo y la distancia
+
+t  es como el eje y 
+x es como el eje x 
+
+entonces tenemos: 
+
+
+t -> 	u 
+
+y luego en la clase nos dijo que hariamos una funcion que se iria moviendo a traves del tiempo

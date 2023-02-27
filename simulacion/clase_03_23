@@ -1,0 +1,31 @@
+Bueno en si el magister hablo de la simulacion nos mostro una simulacion de un rio. 
+para modelar un rio se usaba la ecuacion de navier stok 
+bueno dijo que la ecauacion esa no sirve usar las formas que avanzamos en ecuas 
+y dijo que para resolver esa wea se necesitaban calculos 
+
+
+Luego saltamos a las: 
+
+o METODOS DE SIMULACION
+  - ecuacines difrenciales ordinarias u parciales
+  - sistemas de N body 
+  = metodo de monte carlo
+  - automatas celulares y latice Botzmann 
+  - Eventos discretos
+  - Dinamica de isitemas: cusa y efecto 
+  - Apredizaje automatico: machine learning (ajustes a datos)
+  - sistemas multi agentes
+  estas son laas mas utilizadas
+
+o DEL MODELOO A LA SIMULACION 
+  - una vez creado el model necesitamos ejecutarlo
+
+SALA MIERDA ESTO ESTA DENSO 
+
+  METODO DE LA SIMULACION 
+  observar la realidad -> crear un hipotesis(un formalismo) -> ...
+
+  cuando a la hora de hacer un modelo en especifico tenemos que preguntamo: depende? para que queremos el modelo? 
+
+  magister: seguramente hicieron un modelo en su vida: uml, entidad relacion 
+

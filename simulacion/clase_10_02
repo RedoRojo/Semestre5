@@ -1,0 +1,34 @@
+bueno el magister hablo acerca del metodo de modelaar que utilizamos en la anterior clase 
+  
+    TECNICA NUMERICA(INTEGRACION)
+    
+en si hablo de como modelar el crecimiento de los contagios de covid 
+con la integracion que era con ecuaciones diferenciales hallar lo demas 
+pero esto no era muy exacto asi que aniadimos mas factores por ejemplo 
+
+
+y con este metodo tenemos: 
+
+    lim       Ay/At   y tenemos lo que es discretizacion tenemos: (yf - y0)/At ~= f(y,t)
+    At -> 0 
+
+    de esta funcion nos interesa hallar yf ya que es el futuro
+
+    tenemos yf = y0 + f(y, t) delta t     donde delta t = es un salto en el tiempo 
+
+    entonces tenemmos que hacer muchos saltos en poco tiempo 
+
+    y para esot tenemos que hacer una funcion en python que llame euler 
+
+    def euler(t0, tf, cI, f(y, t), At, * parametros)   
+      
+      yf = CI + f(y, t) At 
+      t0 = t0 + At 
+
+
+      cI = condiciones inciales(en un momento t tenemos cierto dato)
+      f(y,t) nos da la direccion
+      At = delta t cada cuando voy a saltar por eso se llama discretizacion 
+
+
+      donde f(y, t) = dp/dt = kp(1-p/N)
