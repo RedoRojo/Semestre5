@@ -1,0 +1,177 @@
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    },
+    {
+        $lookup : {
+                from: "UsuarioPreguntas", 
+                localField: "_id", 
+                foreignField: "usuario",
+                as: "ay"
+        }
+    },
+    {
+        $project: {_id: 0, tamanio: {$size:"$ay"}}
+    }
+    
+])
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    }
+    
+])
+
+
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    },
+    {
+        $lookup : {
+                from: "UsuarioPreguntas", 
+                localField: "_id", 
+                foreignField: "usuario",
+                as: "ay"
+        }
+    },
+    {
+        $project: {_id: 0, tamanio: {$size:"$ay"}}
+    }
+    
+])
+
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    },
+    {
+        $lookup : {
+                from: "UsuarioPreguntas", 
+                localField: "_id", 
+                foreignField: "usuario",
+                as: "ay"
+        }
+    },
+    {
+        $unwind: "$ay"
+    },
+
+    
+    {
+        $project: {_id: 1, joselito: "$ay.materia"}
+    },
+    
+    {
+        $group: {_id: "$joselito", cant: {$sum:1}}
+    },
+    
+    {
+        $lookup: {
+            from: "Materias", 
+            localField: "_id", 
+            foreignField: "_id", 
+            as: "materia"
+        }
+    },
+    {$unwind: "$materia"},
+    {
+         $project: {_id: 0, cant: 1, materia: "$materia.nombre"}
+    },
+    
+    {$sort:{cant:-1}},
+    {$limit: 1},
+    {$project: {Materia: "$materia"}}
+])
+
+
+
+
+
+
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    },
+    {
+        $lookup : {
+                from: "UsuarioPreguntas", 
+                localField: "_id", 
+                foreignField: "usuario",
+                as: "ay"
+        }
+    },
+    {
+        $unwind: "$ay"
+    },
+
+    
+    {
+        $project: {_id: 1, joselito: "$ay.materia"}
+    },
+    
+    {
+        $group: {_id: "$joselito", cant: {$sum:1}}
+    },
+    
+    {
+        $lookup: {
+            from: "Materias", 
+            localField: "_id", 
+            foreignField: "_id", 
+            as: "materia"
+        }
+    },
+    {$unwind: "$materia"},
+    {
+         $project: {_id: 0, cant: 1, materia: "$materia.nombre"}
+    },
+    
+    {$sort:{cant:-1}},
+    
+])
+
+
+
+db.Usuarios.aggregate([
+    {
+        $match : {nombre: "JORGE ESPADA RODAS"}
+    },
+    {
+        $lookup : {
+                from: "UsuarioPreguntas", 
+                localField: "_id", 
+                foreignField: "usuario",
+                as: "ay"
+        }
+    },
+    {
+        $unwind: "$ay"
+    },
+
+    
+    {
+        $project: {_id: 1, joselito: "$ay.materia"}
+    },
+    
+    {
+        $group: {_id: "$joselito", cant: {$sum:1}}
+    },
+    
+    {
+        $lookup: {
+            from: "Materias", 
+            localField: "_id", 
+            foreignField: "_id", 
+            as: "materia"
+        }
+    },
+    {$unwind: "$materia"},
+    {
+         $project: {_id: 0, cant: 1, materia: "$materia.nombre"}
+    },
+    
+    {$sort:{cant:-1}},
+    {$match: {materia: "HISTORIA DE BOLIVIA"}}
+    
+])
