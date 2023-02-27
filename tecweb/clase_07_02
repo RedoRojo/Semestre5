@@ -1,0 +1,55 @@
+BUeno en si en la clase hablamos de las exposiciones.
+
+bueno en si cosass que remarcar: 
+
+servicios corriendo en un servidor: SSH base de datos
+
+
+
+algo de postman no se que 
+
+
+bueno abrio las herramientas de desarrollador 
+
+en la parte de red 
+
+y salio una lista de request que se hicieron: hay un metodo que se llama options 
+
+
+lo que vemos es una ista e estudiantes 
+
+un servidor de angular esta en otro lugar que la API con la lista de estudiantes
+
+el primer servidor le pregunta al servidor de la api si le puede enviar una solicitud
+y el segundo le dice esta bien choco y le deja enviar su solicitud al primero 
+
+entonces solo asi el primero envia el GET y por fin el servidor le devuelve lo que pidio 
+
+el magister dijo que las dev tools de chrome tambien es un mundo hasta tal punto que ay un libro de eso . dijo que aprendamos esa mierda NO QUIERO 
+
+hay cientos de funcionalidades que estan en esa herramienta de mierda 
+
+hay herramientas que nos puede hacer visualizar las solicitudes y respuestas
+
+si queremos visuzlizar como se ven estas vainas podemos usar esa herramienta de google
+
+SEGURIDAD: cual es la difrencia entre http y https? 
+  ssl -> es un certificado que que asegura que la conexion es segura. cada solicitud ue va al servidor se encripta esto es lo que hace el https 
+  por eso se dice que https es la version segura http 
+
+URL: nos dirige a una eterminada direccion 
+  ejemplo: google.com
+  como sabe tut navegador a que direccin tiene que ir? , tu navegador pregunta a otro servidor que se llama DNS el cual le da la traduccion de ese nombre de dominio
+
+
+UNA HISTORIA: el magister conpro el dominio de cochabamba.info en godaddy por que la alcaldia le pidio de que haga una pagina de informacion de cochabamba
+  en go daddy nos dice el costo de la pagina dpende de lo que se pida por esa mierda 
+  entonces una idea es comprar nombres de dominio que pueden llegar a valer mucho: bolivar.com esto puede valer un culo de plata 
+  
+.BO : estos se compran de otro lugar 
+  
+  hay estudios que demuestran que hay extensiones de paises generan seguridad entonces mejor con .bo para negocios 
+
+
+SERVIDOR WEB: dentro de un servidor tiene que estar un sistema operativo y dentro de el servicio y demas todo esto se puede simular con una maquina virtual.
+

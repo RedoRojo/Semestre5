@@ -1,0 +1,61 @@
+bueno en si en a clase edel este dia lnos explico lo que es un sstema WEB
+
+del cual forman parte: 
+
+  servidor
+  cliente 
+  servidor 
+  usuario 
+
+
+  un servidor recibe solicitudes de los clientes y envia respuestas 
+  tambien se envian solicitudes a servidores que son las APIS Y estos van al backend 
+
+
+  bueno en si el magister hablo de lo que hacen los frontend y los backend
+
+  bueno tambien hablo de lo que se dedican a manejar la base de datos 
+  tambien hablo de personas que se enccargan de la seguridad que se encarga de la seguridad de todo el sistema web 
+
+  o SERVIDOR
+    bueno en si es hablo de lo que es un FIERRO que son el conjunto de cosas para una computadora solo las partes de metal por eso un FIERRO
+
+    los servidores usan diferentes sistemas operativos: windows server ubuntu server y asi... 
+    hablo de las diferencias entre los sistemas operativos: el costo
+      
+    bueno lo que sigue es instalar algo: un servidor web
+      servidor web: es software osea es codigo son programas 
+      ejemplo: Apache(resulta que esto era muy popular)
+    
+    tambien le pondremos serivdores SSH que nos perimite acceder a los servidores de manera remota
+    dentro del mismo servidor podemos instalar My sql que es una base de datos.
+    
+    se realizaran llamadas al servidor y el servidor reoconocera que tarea hacer dependiento del puerto del servicio.
+      llega una solicitud con el puesto 80 y te manda al Apache.
+
+  bueno el wey que sabe todo de lo que hable arriba se llama un FULL STACK.
+  
+  NOTA: backed no es lo mismo que las bases de datos osea que no hacen el mismo trabajo, Diferenciar esto es escencial.
+  
+  
+QUE SERA LO QUE VEREMOS: 
+  Frontend: HMTL, CSS, JS, SASS
+    - SASS: ni idea de lo que es pero el magister hablo de que una pagina tienen que ser responsive y con eso llego a un punto en el que tambien hablo de boostrap
+    - Material design: bueno en si es el disenio de las cosas osea: como se deberia elaborar una cosa.
+    - JS: magister: "es el pero lenguaje del mundo" en ves de eso usaremos typpescript (primero tendremos que aprender javascript y luego type)
+    
+  RNO esta cosa se encarga de transformar la programacion sore objetos en consultlar de las diferentes bases de datos.
+
+  bueno el libro qu nos dijo que leamos: Head first y  no se que 
+
+  de la pagina 3 a a la 24 vamos a exponer
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+comp cerrar un puerto: pues lo desconectas
+
+
+firewall: software y hardware 
+
+cuando instalamos el ubunto server tambien podemos instalar un firewall mediante linea de comandos.
+
+tambien tenemos que isntalar un servidor de base de datos.
+
+frameworks: django, no se que mas. 
+
+bueno digamos que desde nuestra computadora enviamos un POST(correo contrasenia) a una API y la api le envia a esto a una base de datos
+
+si alguien sabe todo entonces es un FULL STACK1

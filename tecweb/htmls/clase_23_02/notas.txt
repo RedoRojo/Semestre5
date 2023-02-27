@@ -1,0 +1,5 @@
+en html cada cosaes como una cajita y cada cosa tiene como cajitas sobre otras 
+el padding y el border o nose que // esto lo puedes ver en las herramientas de desarrollador y ves las cajitas 
+
+cuando hagamos htmmls tenemos que seguir una estructura semantica lo que significa que lo que hagamos tenga sentido
+

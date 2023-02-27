@@ -1,0 +1,105 @@
+servidores web dinamicos y estaticos(esto tengo que revisarlo)
+
+
+tecnologias: 
+  - balsame para hacer mock ups
+  - hmtl 5
+  - css 
+  - javascript (el problema de esta cosa es que carece de tipos)
+  - typescript (este mejores las cosas osea que hace tu trabajo mas facil, es un superconjunto de javascript osea que dentor de tpye esta js) 
+  - que pasa cuando lo llevamos al naegodor en formato de js en un proceso que se llama transpilacion
+  - angular (nos permite hacer las cosas mas facil, )
+
+  // que es un framework: cuando tenemos que hacer un culo de cosas como conectarnos a servidores y demas, un framework que nos ayuda a ahacer esto
+
+  cada que nos piden un trabajo tiene que ser responsivo: en el tiempo de ahora ses sobreentiende que tiene que ser responsive
+  para eso tenemos:
+  - Bootstrap
+  
+  programaar en css no es lo mejor y con eso viene
+  - sass: es una mejor forma de hacer las weas
+  - postman: es un cliente que te permite solicitudes a tu api y que tamebien te retorna
+  - json: //bueno ya sabes lo que es json
+  - S.O.: algo de ubuntu server
+  - Apache
+  - Mysql: la base de datos(gestores de bases de daatos: sql server my sql, oracle, algo mas)
+  // tambien podemos usar bases de datos no relacionales, pero un buen dato importante: esta chido aprender nuevas tecnologias, pero las tradicionales son las que mas mercado tienen 
+  
+  //cuando nos comunicamos con una Base datos nos comunicamos con SQL
+  // cuando hacemos una consulta sql para una base de datos especifica no se puede usar en otra base de datos entonces a la hora de cambiar de bases de datos tenemo que cmabiar todas
+  // las putas consultas que hicimos
+
+  - TypeOR: sirve para comunicarnos con las bases de datos sin saber nada de sql, nos comunicamos con la base datos con POO, el tipeOR se encarga de traducirlo a cualquier base de 
+    datos que queramos. pero eso no significa que nos olvidemos de saber como gestionar la base de datos
+  // en el lado del servidor podemos usar cualquier lenguaje de declaracion 
+  // y en el back tarabjar con javascript es complejo y para eso usamos nestjs 
+
+USABILIDAD: capacidad del software para ser entendido, apredido y atractivo. tenemos que darle al software al cliente y este tiene que saber que hacer 
+  un ejemplo de usabilidad: un loginque le avisa que se esta equivocando con sus credenciales. tambien otra wea con la pagina del tribunal electoral que nos e aclaraba bienun campo 
+
+  tambien es importante pensar en las personas con discapacidades, por ejemplo si una persona que no puede ver y un asistente de voz haga un recorrido correcto sobre la pagina 
+  cuando disenaiamos un producto, tenemos que pensar en que necesitan los demas.
+  y de donde sacamos la informaciono para hacer un software para esos estan los isos: 9241-210, 25010 //ESTO ES IMPORTANTE DE LEER
+  
+  // Bolivia no tienes derechos acerca de la paginas web,  para que el desarrollo se aprofesional tenemos que apoyarnos en normativas
+
+ANGULAR: es bien chingon, detras de angular es google
+  que se ha hecho en angular: un culo, 
+
+APLICACIONES MOVILES HIBRIDADS: 
+  aplicaciones hibridas: estan hechas en javascript y que se muestran en el celular como una pagina web osea que no hay lio y es mas facil por que solo tendrias que hacer la pagina
+  web esto con IONIC 
+
+HERRAMIENTAS: 
+  - trello: una herramienta que te permite ordenar tus tareas
+  - balsamiq: 
+  - postman: hacer solicitudes a la api y llega la api
+  - Atom: 
+  - sublieme text: 
+  - vs code
+  - git
+
+
+// OTRA PARTE
+  que vamos a aprender: html, css y js 
+
+  doucmento HTML(pagina web): nos permite crear documentos interconectados, cada htmml es una pagina web => al conjunto de paginas se le llama sitio web
+  si un sitio web se conecta con toro sitio web se llama world wide web
+
+  Html es un leguanje de marcado, estaas narcas son etiquetas
+
+  ELEMENTOS: bloques  de construccion de un  documento  html 
+    1. elementos comopletos: se tiene una etiqueta de apertura y otra cierre. Dentro de la etiqueta de apertura tenemos lo que son llamados atributos, entre las etiquetas esta el 
+      contenido : <p class="parrafo"> joselito mi patron </p> 
+    2. elementos vacios: solo tenemos la etiqueta de apertura, no cierre no cntenido
+    3 elementos padres y elementos hijos: podemos anidar un elemento dentro de otro
+
+
+  ATRIBUTOS:  contiene informacion extra acerca de los elementos. Van incorporados en la etiqueta de apertura.
+    ejemplo: <div id="josleito" > </div> 
+    
+    atributos vacios: no tienen valor solo indican una cosa puntual
+    atributos globales: son los generales
+    atributos personalizados: son unso que te haces tu mismo(creo)
+
+  cuando nos referimos a un etiqueta que es padre del padre de uno se dice que es el anccestro.
+
+  CATEGORIAS: 
+    los elementos contenedore siguen ciertas reglas osea dentro deun h1 no podemos poner un div y demas 
+    
+    si es que hacemos renderizar algo asi, el navegador dira que no esta correcto lo que hicimos entonces corrige lo que hicimos y le hace tener sentido.
+    si esto lo hacemos asir el js se confundira cuando en el navegador buscara la estrucutra erronea que pusimos y como no la encuentre por que el navegador la cambio 
+
+    para evitar estas weas se le asignan categorias a las etiquetas, y entonces a la hora de hacer la wea cada etiqueta debe de estar dentro de otra etiqueta que se permita soportar
+    
+  el navegador tambien  no tiene problemas para renderizar etiquetas que no existen, igualmente muestraw la wea. 
+  y esto es malo porque en js cada etiqueta se crea en un objeto que ya existe en js y como no ponemos una etiqueta que no existe entonces el js flipa
+
+  CUALES SON LAS CATEGORIAS: 
+    - METADATA: son los que modifican los metadatos
+    // bueno el magister se paso esto volando asi que no copie, lees las diapositivas si crees que es importante.
+    
+
+
+
+

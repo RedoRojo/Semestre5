@@ -1,0 +1,19 @@
+COMO FUNCIONA UN SISTEMA WEB: 
+  Tenemos dos tipos a la hora de desarrollar: 
+    frontend: son los encargados de hacer lo que se muestra al usuario: HMTL, JS, CSS 
+      cuando el trabajo ya esta hecho lo que hacemos es deployamos al servidor:             - Servidor: compu con un sistema operativo , servidor web, 
+
+  servidores que podemos alquilar: VPS 
+  las empresas te dicen: nos daran un servidor que tiene sus especificaciones me lo alquilaran, osea que es mejor alquilar VPS  en ves de comparr un servidor
+
+  cuando llega una solicitud del cliente: como sabe el servidor que la solicitud que le llega la tiene que responder APACHE, eso se sabe por el puerto, 
+
+  SSH = como no tenemos acceso al servidor VPS tenemos que usar SSH que nos permite al acceso remoto al servidor como si de estar cerca se tratara
+
+  bueno en el caso de que se envie un formulario desde la pagina entoncs se hace una slicitud ya sea a el mismo servidor o a otro servidor que se llama una API y este servidor
+  llama a otro servidor que es la base de datos 
+
+  bueno una API ES AGNOSTICA osea que no le importa quien le envie la solicitud responde de todas formas, de tal forma de que no importe de donde viene la solicitud la API siempore
+  respondere1
+
+  en las herraamientas de desarrollador hay un apartado para ver las solicitudes del navegador 
